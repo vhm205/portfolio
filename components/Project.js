@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "../styles/Project.module.css";
 import Icon from "./Icon";
 import GitHub from "../svgs/GitHub";
-// import Site from "../svgs/Site";
+import Site from "../svgs/Site";
 import Img from "./Img";
 
 export default function Project({ project, reverse }) {
