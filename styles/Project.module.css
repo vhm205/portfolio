@@ -1,0 +1,139 @@
+.project {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.details {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  transition: all 500ms;
+}
+
+.details h3 {
+  font-size: 2rem;
+}
+
+.description p {
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.tags {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tags code {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--tag-color);
+  background-color: var(--tag-bg);
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.links a::before {
+  height: 0;
+}
+
+.imageContainer {
+  flex: 0.6;
+  width: 100%;
+  min-height: 20vh;
+  margin: 0 20px;
+  position: relative;
+  transition: all 500ms;
+}
+
+.imageContainer span {
+  border-radius: 5px;
+}
+
+.imageContainer::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: var(--img-after);
+  opacity: 0.2;
+  border-radius: 5px;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.project:hover .imageContainer::after {
+  opacity: 0;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.reverse .details {
+  align-items: flex-start;
+}
+
+.reverse .description p {
+  text-align: start;
+}
+
+@media screen and (max-width: 900px) {
+  .details {
+    flex: 0.4;
+  }
+  .imageContainer {
+    flex: 0.6;
+    margin: 0 10px 0 0;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .project {
+    position: relative;
+    margin: 20px 0;
+  }
+  .details {
+    flex: 1;
+    padding: 50px;
+    align-items: flex-start;
+  }
+  .description p {
+    text-align: left;
+  }
+  .imageContainer {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 0 0 20px var(--image-shadow);
+  }
+  .imageContainer::after {
+    opacity: 0.9;
+    background-color: var(--image-bg-after);
+  }
+  .project:hover .imageContainer::after {
+    opacity: 1;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  .details {
+    padding: 30px;
+  }
+}

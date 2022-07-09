@@ -1,0 +1,151 @@
+{
+  "firstname": "Vũ",
+  "lastname": "Minh",
+  "shortname": "VHM",
+  "description": "I am a <b>Back-End developer</b> living in Bien Hoa - Viet Nam. I have a passion for code and things related to technology. <b>My goal</b> is to become a <b> DevOps Engineer </b>. Besides, I also like sports activities like swimming, workout, running, muay, guitar...",
+  "resume": "https://www.topcv.vn/xem-cv/CggMWVtQVFQHVFVdBQAPDFQCVAEKVFgHBFBbAQb9d6",
+  "pic": "_avatar.png",
+  "picAlt": "Vũ Minh",
+  "social": [
+    { "media": "github", "link": "https://github.com/vhm205" },
+    { "media": "twitter", "link": "https://twitter.com/vhm102" },
+    { "media": "linkedin", "link": "www.linkedin.com/in/vhm205" },
+    { "media": "instagram", "link": "https://www.instagram.com/vhm.205" },
+    { "media": "email", "link": "mailto:minhvh.tech@gmail.com" }
+  ],
+  "navLinks": [
+    {
+      "name": "About",
+      "link": "#about"
+    },
+    {
+      "name": "Experience",
+      "link": "#experience"
+    },
+    {
+      "name": "Projects",
+      "link": "#projects"
+    },
+    {
+      "name": "Message",
+      "link": "#message"
+    }
+  ],
+  "about": {
+    "descriptions": [
+      "I have started my web development journey back in Dec 2020 by making a simple <b>Todo</b> application in Javascript from a Youtube channel and that made me to build interest in web dev.",
+      "I initially focused on learning and exploring different JS & CSS frameworks and libraries than to just stick around with only HTML, CSS and Javascript. Then after that I decided to opt <b>React</b> as main tech as it was perfect and easy to learn than others, so I started to make many projects with this library.",
+      "In the span of the time from the day I started, I have focused more on designing with proper user experience with accessiblity.",
+      "I also do competitive programming so as to keep refreshing my Data Structures and Algorithms skills."
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "NodeJS",
+      "Express",
+      "Moleculer",
+      "MongoDB",
+      "Docker",
+      "Unix/Linux"
+    ],
+    "cp": [
+      {
+        "platform": "CodeChef",
+        "link": "https://www.codechef.com/users/nuliya"
+      },
+      {
+        "platform": "CodeForces",
+        "link": "https://codeforces.com/profile/nuliya"
+      }
+    ],
+    "illustration": "illustration_about.png",
+    "illustrationAlt": "web illustration"
+  },
+  "experience": [
+    {
+    "company": "Trixgo",
+      "logo": "trixgo_logo.png",
+    "logoAlt": "Trixgo",
+      "date": "Nov 2020 - Aug 2022",
+      "link": "https://trixgo.com/",
+      "position": "Back-End Developer",
+      "descriptions": [
+        "Maintain project",
+        "Product feature development"
+      ]
+    },
+    {
+      "company": "LDK Software",
+      "logo": "ldk_logo.jpeg",
+      "logoAlt": "LDK Software",
+      "date": "Mar 2021 - Mar 2022",
+      "link": "https://www.facebook.com/groups/3915608995130538",
+      "position": "Full-Stack Developer",
+      "descriptions": [
+        "Build Tools Generator",
+        "Made oursourcing project",
+        "Follow project requirements"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Amazon Clone",
+      "descriptions": [
+        "Fully functional Amazon clone with neat & clean UI matching the original one.",
+        "With payment functionality using Stripe API in test mode which uses webhooks to put all the details of payment into the Firebase database."
+      ],
+      "live": "https://amazon-build-ten.vercel.app/",
+      "github": "https://github.com/mshahanwaz/amazon-build",
+      "screenshot": "ss_amazon.png",
+      "screenshotAlt": "Amazon screenshot",
+      "tags": ["NextJS", "Stripe", "Webhooks", "Firebase"]
+    },
+    {
+      "name": "Netflix Clone",
+      "descriptions": [
+        "Made real Netflix like user interface with only vanilla CSS in React.",
+        "Login functionality which uses email and password authentication and a home page which uses TMDB API to fetch a bunch of movie info."
+      ],
+      "live": "https://full-netflix-build.web.app/",
+      "github": "https://github.com/mshahanwaz/netflix-build",
+      "screenshot": "ss_netflix.png",
+      "screenshotAlt": "Netflix screenshot",
+      "tags": ["ReactJS", "Firebase", "TMDB API"]
+    },
+    {
+      "name": "Portfolio v3",
+      "descriptions": [
+        "Third iteration of my portfolio series in React but this time with TypeScript.",
+        "Responsive, minimal UI and more outlined design with theme accent changing facility."
+      ],
+      "live": "https://imshahanwaz.netlify.app",
+      "github": "https://github.com/mshahanwaz/portfolio-v3",
+      "screenshot": "ss_pv3.png",
+      "screenshotAlt": "Portfolio version 3 screenshot",
+      "tags": ["ReactJS", "TypeScript", "SASS", "Netlify"]
+    }
+  ],
+  "archive": "https://github.com/mshahanwaz?tab=repositories",
+  "message": {
+    "illustration": "illustration_message.png",
+    "illustrationAlt": "message illustration"
+  },
+  "footer": {
+    "otherLinks": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/vhm102/"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/vhm205/"
+      },
+      {
+        "name": "Support",
+        "link": "https://buymeacoffee.com/vhm205"
+      }
+    ]
+  }
+}
