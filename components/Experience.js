@@ -52,8 +52,17 @@ export default function Experience() {
               </Link>
             </h3>
             <code>{data.experience[index].date}</code>
+            <h4>Main responsibilities:</h4>
             <ul className={styles.list}>
               {data.experience[index].descriptions.map((each, i) => (
+                <li key={i} className={styles.item}>
+                  {each}
+                </li>
+              ))}
+            </ul>
+            <h4>What i did:</h4>
+            <ul className={styles.list}>
+              {data.experience[index].did.map((each, i) => (
                 <li key={i} className={styles.item}>
                   {each}
                 </li>

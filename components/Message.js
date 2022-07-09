@@ -45,7 +45,7 @@ export default function Message() {
           <code>&#128172; Something in mind?</code>
           <h2>Ping me</h2>
           <p>
-            Feel free to ping me anytime and I would reply back in under 69
+            Feel free to ping me anytime and I would reply back in under <b>69 </b>
             minutes. I would be grateful if you are
             here to hire me. See you in my inbox &#9996;&#65039;.
           </p>

@@ -1,27 +1,34 @@
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
-export default function message(req, res) {
+export default function sendMail(req, res) {
+  const { name, email, message } = req.body;
   const transporter = nodemailer.createTransport({
     port: 465,
     host: "smtp.gmail.com",
     auth: {
       user: process.env.EMAIL,
-      pass: process.env.PASSWORD,
+      pass: process.env.PASE,
     },
     secure: true,
   });
 
+  // console.log({
+  //   user: process.env.EMAIL,
+  //   pass: process.env.PASSWORD,
+  //   name, email, message
+  // })
+
   const option = {
     from: process.env.EMAIL,
-    to: "minhvh.tech@gmail.com",
-    subject: `Message From ${req.body.name}`,
-    text: req.body.message + " | Sent from: " + req.body.email,
-    html: `<p>Name: ${req.body.name}</p><p>Email: ${req.body.email}</p><p>Message: ${req.body.message}</p>`,
+    to: email,
+    subject: `Message From ${name}`,
+    text: message + " | Sent from: " + email,
+    html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
   };
 
   transporter.sendMail(option, function (err, info) {
-    if (err) console.log(err);
+    if (err) console.error(err);
     else console.log(info);
   });
   res.status(200);

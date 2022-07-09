@@ -3,7 +3,7 @@ import { initLS, setLS } from "./localStorage";
 import toggleTheme from "./theme";
 
 export default function useThemeChange() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     initLS("theme", "dark", setTheme, toggleTheme);

@@ -10,7 +10,7 @@ function Page() {
   return (
     <>
       <Head>
-        <title>VHM</title>
+        <title>VHM Tech</title>
       </Head>
 
       <Layout>

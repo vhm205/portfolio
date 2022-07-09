@@ -149,14 +149,15 @@
   padding: 0;
   list-style: none;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .item {
+  padding-bottom: 10px;
   position: relative;
   display: block;
-  padding-left: 30px;
-  padding-bottom: 20px;
-  font-size: 1.1rem;
+  padding-left: 20px;
+  font-size: 1rem;
 }
 
 .item::before {
@@ -165,6 +166,21 @@
   position: absolute;
   left: 0;
 }
+
+/* .item {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 1.1rem;
+} */
+
+/* .item::before {
+  content: "‣ ";
+  color: var(--item-bullet-color);
+  position: absolute;
+  left: 0;
+} */
 
 @media screen and (max-width: 500px) {
   .experience {

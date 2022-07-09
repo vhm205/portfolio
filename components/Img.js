@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Img(props) {
   const { img, imgAlt, width, height, layout, objectFit } = props;
   var attributes = {
-    width: width,
-    height: height,
+    width: width || '100%',
+    height: height || '100%',
     layout: layout && "fill",
     objectFit: objectFit,
   };

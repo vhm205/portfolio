@@ -2,10 +2,10 @@
   "firstname": "Vũ",
   "lastname": "Minh",
   "shortname": "VHM",
-  "description": "I am a <b>Back-End developer</b> living in Bien Hoa - Viet Nam. I have a passion for code and things related to technology. <b>My goal</b> is to become a <b> DevOps Engineer </b>. Besides, I also like sports activities like swimming, workout, running, muay, guitar...",
+  "description": "I'm a <b>Back-End developer</b> living in Bien Hoa - Viet Nam. I have a passion for code and things related to technology. <b>My goal</b> is to become a <b> DevOps Engineer </b>. Besides, I also like sports activities like swimming, workout, running, muay, guitar...",
   "resume": "https://www.topcv.vn/xem-cv/CggMWVtQVFQHVFVdBQAPDFQCVAEKVFgHBFBbAQb9d6",
   "pic": "_avatar.png",
-  "picAlt": "Vũ Minh",
+  "picAlt": "VU HUYNH MINH",
   "social": [
     { "media": "github", "link": "https://github.com/vhm205" },
     { "media": "twitter", "link": "https://twitter.com/vhm102" },
@@ -64,15 +64,24 @@
   },
   "experience": [
     {
-    "company": "Trixgo",
+      "company": "Trixgo",
       "logo": "trixgo_logo.png",
-    "logoAlt": "Trixgo",
+      "logoAlt": "Trixgo",
       "date": "Nov 2020 - Aug 2022",
       "link": "https://trixgo.com/",
       "position": "Back-End Developer",
       "descriptions": [
         "Maintain project",
         "Product feature development"
+      ],
+      "did": [
+        "RESTful API",
+        "ReactJS",
+        "Typescript",
+        "Docker",
+        "Redis",
+        "SocketIO",
+        "AWS S3"
       ]
     },
     {
@@ -84,50 +93,78 @@
       "position": "Full-Stack Developer",
       "descriptions": [
         "Build Tools Generator",
-        "Made oursourcing project",
+        "Oursourcing project",
         "Follow project requirements"
+      ],
+      "did": [
+        "Worker Thread",
+        "Message Queue",
+        "VPS Deployment",
+        "RBAC",
+        "Auto backup DB"
       ]
     }
   ],
   "projects": [
     {
-      "name": "Amazon Clone",
+      "name": "Tools Generator",
       "descriptions": [
-        "Fully functional Amazon clone with neat & clean UI matching the original one.",
-        "With payment functionality using Stripe API in test mode which uses webhooks to put all the details of payment into the Firebase database."
+        "A tool that helps programmers do not need to work hard and still receive a salary at the end of the month. 😎",
+        "By creating function modules through the admin dashboard, with just a few mouse clicks.",
+        "The tool will automatically create functions such as: add, delete, edit,... and other extended functions (including UI)"
       ],
-      "live": "https://amazon-build-ten.vercel.app/",
-      "github": "https://github.com/mshahanwaz/amazon-build",
-      "screenshot": "ss_amazon.png",
-      "screenshotAlt": "Amazon screenshot",
-      "tags": ["NextJS", "Stripe", "Webhooks", "Firebase"]
+      "live": "",
+      "github": "",
+      "screenshot": "tools_project.png",
+      "screenshotAlt": "Tools Generator screenshot",
+      "tags": ["NodeJS", "MongoDB", "Message Queue", "Redis", "EJS"],
+      "showGit": false,
+      "showLive": false
     },
     {
-      "name": "Netflix Clone",
+      "name": "Hai Luu",
       "descriptions": [
-        "Made real Netflix like user interface with only vanilla CSS in React.",
-        "Login functionality which uses email and password authentication and a home page which uses TMDB API to fetch a bunch of movie info."
+        "A print-on-demand ordering website.",
+        "With basic functions like: Shopping Cart, Blogging, Momo Payment,..."
       ],
-      "live": "https://full-netflix-build.web.app/",
-      "github": "https://github.com/mshahanwaz/netflix-build",
-      "screenshot": "ss_netflix.png",
-      "screenshotAlt": "Netflix screenshot",
-      "tags": ["ReactJS", "Firebase", "TMDB API"]
+      "live": "",
+      "github": "https://gitlab.com/vhm-projects/hailuu",
+      "screenshot": "hailuu_project.png",
+      "screenshotAlt": "HaiLuu screenshot",
+      "tags": ["NodeJS", "MongoDB", "Redis", "EJS"],
+      "showGit": true,
+      "showLive": false
     },
     {
-      "name": "Portfolio v3",
+      "name": "K360",
       "descriptions": [
-        "Third iteration of my portfolio series in React but this time with TypeScript.",
-        "Responsive, minimal UI and more outlined design with theme accent changing facility."
+        "Admin dashboard page for managing employees, stores, cash flow, transactions,...",
+        "Data graph visualization, and product pricing features."
       ],
-      "live": "https://imshahanwaz.netlify.app",
-      "github": "https://github.com/mshahanwaz/portfolio-v3",
-      "screenshot": "ss_pv3.png",
-      "screenshotAlt": "Portfolio version 3 screenshot",
-      "tags": ["ReactJS", "TypeScript", "SASS", "Netlify"]
+      "live": "",
+      "github": "https://gitlab.com/vhm-projects/k360",
+      "screenshot": "k360_project_admin.png",
+      "screenshotAlt": "K360 screenshot",
+      "tags": ["NodeJS", "MongoDB", "Redis", "ChartJS", "EJS"],
+      "showGit": true,
+      "showLive": false
+    },
+    {
+      "name": "V Token",
+      "descriptions": [
+        "A project that manages mini-game campaigns with scoring rules and milestones.",
+        "The function of statistics of the user's scores achieved and their history of accumulation."
+      ],
+      "live": "",
+      "github": "https://gitlab.com/vhm-projects/v-token",
+      "screenshot": "v-token_project.png",
+      "screenshotAlt": "V-Token screenshot",
+      "tags": ["NodeJS", "MongoDB", "SocketIO", "EJS"],
+      "showGit": true,
+      "showLive": false
     }
   ],
-  "archive": "https://github.com/mshahanwaz?tab=repositories",
+  "archive": "https://gitlab.com/vhm-projects",
   "message": {
     "illustration": "illustration_message.png",
     "illustrationAlt": "message illustration"
