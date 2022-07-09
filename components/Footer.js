@@ -33,7 +33,7 @@ export default function Footer() {
             <ul>
               {data.footer.otherLinks.map(({ name, link }, i) => (
                 <li key={i}>
-                  <a href={link} target="_blank">{name}</a>
+                  <a href={link} target="_blank" rel="noreferrer">{name}</a>
                 </li>
               ))}
             </ul>

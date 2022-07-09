@@ -10,7 +10,7 @@ Version 1.0 of my portfolio website.
 - Nodemail
 - Axios
 
-## 🌄 Screenshots:
+<!-- ## 🌄 Screenshots: -->
 
 <!-- <p align="center">
   <img src="https://github.com/mshahanwaz/portfolio-v4/blob/main/screenshots/pv4-dark.png">
