@@ -1,6 +1,6 @@
-# 👨‍💻 Portfolio version 4.0.0
+# 👨‍💻 Portfolio
 
-Version 4.0.0 of my portfolio website.
+Version 1.0 of my portfolio website.
 
 ## 📏 Techs & tools used:
 
@@ -12,10 +12,10 @@ Version 4.0.0 of my portfolio website.
 
 ## 🌄 Screenshots:
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/mshahanwaz/portfolio-v4/blob/main/screenshots/pv4-dark.png">
 </p>
 
 <p align="center">  
   <img src="https://github.com/mshahanwaz/portfolio-v4/blob/main/screenshots/pv4-light.png">
-</p>
+</p> -->
