@@ -18,10 +18,17 @@
 }
 
 :root {
-  --color-blue: #007fff;
-  --color-blue-mid: #006ad5;
-  --color-blue-dark: #003a75;
-  --color-blue-dark-2: #002142;
+  /* --color-blue: #007fff;
+  --color-blue-mid: #006ad5; */
+  --color-blue: #34495e;
+  --color-blue-mid: #2c3e50;
+
+  /* --color-blue-dark: #003a75;
+  --color-blue-dark-2: #002142; */
+
+  --color-blue-dark: #1b2950;
+  --color-blue-dark-2: #0d162c;
+
   --color-blue-light: #d0e7ff;
   --color-blue-light-2: #77b9ff;
   --color-black: #202020;

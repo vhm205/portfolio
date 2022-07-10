@@ -2,7 +2,7 @@
   "firstname": "Vũ",
   "lastname": "Minh",
   "shortname": "VHM",
-  "description": "I'm a <b>Back-End developer</b> living in Bien Hoa - Viet Nam. I have a passion for code and things related to technology. <b>My goal</b> is to become a <b> DevOps Engineer </b>. Besides, I also like sports activities like swimming, workout, running, muay, guitar...",
+  "description": "I'm a Web developer living in Bien Hoa - Viet Nam. I have a passion for code and things related to technology...",
   "resume": "https://www.topcv.vn/xem-cv/CggMWVtQVFQHVFVdBQAPDFQCVAEKVFgHBFBbAQb9d6",
   "pic": "_avatar.png",
   "picAlt": "VU HUYNH MINH",
@@ -33,10 +33,11 @@
   ],
   "about": {
     "descriptions": [
-      "I have started my web development journey back in Dec 2020 by making a simple <b>Todo</b> application in Javascript from a Youtube channel and that made me to build interest in web dev.",
-      "I initially focused on learning and exploring different JS & CSS frameworks and libraries than to just stick around with only HTML, CSS and Javascript. Then after that I decided to opt <b>React</b> as main tech as it was perfect and easy to learn than others, so I started to make many projects with this library.",
-      "In the span of the time from the day I started, I have focused more on designing with proper user experience with accessiblity.",
-      "I also do competitive programming so as to keep refreshing my Data Structures and Algorithms skills."
+      "I started learning programing when i was 16 years old, but really, I only started getting serious coding when i graduated from high school.",
+      "I spent a lot of time in vain learning a little bit of each, but not in depth. I almost fixed that.",
+      "Currently I'm diving into the <b> NodeJS language </b>. But my future goal is 1 <b> DevOps Engineer </b>.",
+      "I always try to improve myself everyday, today is better than yesterday. Failure for me is always a lesson to grow.",
+      "Besides, I'm also interested in some other things such as: Workout, Muay, Guitar, Touring, Reading,..."
     ],
     "skills": [
       "JavaScript",
@@ -71,7 +72,7 @@
       "link": "https://trixgo.com/",
       "position": "Back-End Developer",
       "descriptions": [
-        "Maintain project",
+        "Maintain system",
         "Product feature development"
       ],
       "did": [
@@ -99,8 +100,8 @@
       "did": [
         "Worker Thread",
         "Message Queue",
-        "VPS Deployment",
-        "RBAC",
+        "Server Deployment",
+        "Role Base Access Control",
         "Auto backup DB"
       ]
     }

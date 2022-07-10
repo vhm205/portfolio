@@ -35,7 +35,7 @@ export default function About() {
           ))}
         </ul>
         <p>{data.about.descriptions[data.about.descriptions.length - 1]}</p>
-        <p>
+        {/* <p>
           Here are my profiles on these coding platforms -{" "}
           {data.about.cp.map((each, i) => (
             <Fragment key={i}>
@@ -45,7 +45,7 @@ export default function About() {
               {i !== data.about.cp.length - 1 && ", "}
             </Fragment>
           ))}
-        </p>
+        </p> */}
       </div>
       <div className={styles.imageContainer}>
         <Img
