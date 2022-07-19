@@ -50,16 +50,6 @@
       "Docker",
       "Unix/Linux"
     ],
-    "cp": [
-      {
-        "platform": "CodeChef",
-        "link": "https://www.codechef.com/users/nuliya"
-      },
-      {
-        "platform": "CodeForces",
-        "link": "https://codeforces.com/profile/nuliya"
-      }
-    ],
     "illustration": "illustration_about.png",
     "illustrationAlt": "web illustration"
   },
@@ -173,12 +163,16 @@
   "footer": {
     "otherLinks": [
       {
+        "name": "Blog",
+        "link": "https://vhm.prose.sh"
+      },
+      {
         "name": "Twitter",
-        "link": "https://twitter.com/vhm102/"
+        "link": "https://twitter.com/vhm102"
       },
       {
         "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/vhm205/"
+        "link": "https://www.linkedin.com/in/vhm205"
       },
       {
         "name": "Support",
