@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.intro}>
         <code>&#128075; Hi there,</code>
         <h2>I am</h2>
-        <h1>{data.lastname}</h1>
+        <h1>{data.firstname} {data.lastname}</h1>
         <p dangerouslySetInnerHTML={createMarkup(data.description)} />
         <Link href={data.resume} passHref>
           <a className={"btnLink"} target="_blank">

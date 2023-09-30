@@ -1,9 +1,9 @@
 {
-  "firstname": "Vũ",
-  "lastname": "Minh",
+  "firstname": "Minh",
+  "lastname": "Moment",
   "shortname": "VHM",
-  "description": "I'm a Web developer living in Bien Hoa - Viet Nam. I have a passion for code and things related to technology...",
-  "resume": "https://www.topcv.vn/xem-cv/CggMWVtQVFQHVFVdBQAPDFQCVAEKVFgHBFBbAQb9d6",
+  "description": "I'm a Web developer living in Bien Hoa - HCM - Viet Nam. I have a passion for code and things related to technology...",
+  "resume": "https://drive.google.com/file/d/1t8jCyqaWNszNkLFftRLIbw5Z_ZSrLY9x/view?usp=sharing",
   "pic": "_avatar.png",
   "picAlt": "VU HUYNH MINH",
   "social": [
@@ -35,9 +35,9 @@
     "descriptions": [
       "I started learning programing when i was 16 years old, but really, I only started getting serious coding when i graduated from high school.",
       "I spent a lot of time in vain learning a little bit of each, but not in depth. I almost fixed that.",
-      "Currently I'm diving into the <b> NodeJS language </b>. But my future goal is 1 <b> DevOps Engineer </b>.",
+      "Currently I'm diving into the <b> NodeJS </b>. My upcoming career goal is to become a <b> Senior Engineer </b>.",
       "I always try to improve myself everyday, today is better than yesterday. Failure for me is always a lesson to grow.",
-      "Besides, I'm also interested in some other things such as: Workout, Muay, Guitar, Touring, Reading,..."
+      "Besides, I also play guitar, go running, practice calisthenics, boxing, touring, read and learn anything new related to tech"
     ],
     "skills": [
       "JavaScript",
@@ -45,9 +45,12 @@
       "ReactJS",
       "NodeJS",
       "Express",
-      "Moleculer",
+      "NestJS",
       "MongoDB",
+      "PostgreSQL",
+      "Redis",
       "Docker",
+      "Git/CI",
       "Unix/Linux"
     ],
     "illustration": "illustration_about.png",
@@ -55,22 +58,59 @@
   },
   "experience": [
     {
+      "company": "Codelight",
+      "logo": "codelight-logo.png",
+      "logoAlt": "Codelight Company",
+      "date": "Aug 2022 - Sep 2023",
+      "link": "https://codelight.co/",
+      "position": "Back End Developer",
+      "descriptions": [
+        "Develop a fintech product and a recruitment platform: Create and maintain scalable and efficient server-side applications using NodeJS/NestJS and PostgreSQL.",
+        "Implement searching function: integrate full-text search and boolean search for the recruitment system.",
+        "Implement security: implement passport for authentication and authorization to protect sensitive data and prevent unauthorized access.",
+        "Build a real-time messaging system for recruiters and candidates.",
+        "Conducted code cross-review.",
+        "Write unit-test, integration test.",
+        "Collaborate with the frontend team to deploy the API."
+      ],
+      "products": [
+        "💵 Fintech: <a href='https://blox3.com/' target='_blank'>blox3.com</a>",
+        "🤖 Recruitment Platform: <a href='https://heydevs.io/' target='_blank'>heydevs.io</a>"
+      ],
+      "did": [
+        "NodeJS / NestJS / Typescript",
+        "WebSocket / SocketIO",
+        "PostgreSQL",
+        "Redis Caching",
+        "Bull Queue",
+        "Docker / CI",
+        "GraphQL / RESTful API"
+      ]
+    },
+    {
       "company": "Trixgo",
       "logo": "trixgo_logo.png",
       "logoAlt": "Trixgo",
       "date": "Nov 2020 - Aug 2022",
       "link": "https://trixgo.com/",
-      "position": "Back-End Developer",
+      "position": "Back End Developer",
       "descriptions": [
-        "Maintain system",
-        "Product feature development"
+        "Deploying FNB system of milk tea model.",
+        "Integration with Zalo ZNS for sending order information to customers.",
+        "Implement notification scheduling.",
+        "Maintain the construction business management product."
+      ],
+      "products": [
+        "🌐 Website: <a href='https://app.trixgo.com/' target='_blank'>app.trixgo.com</a>"
       ],
       "did": [
         "RESTful API",
+        "NodeJS / Express / MoleculerJS",
+        "MongoDB",
         "ReactJS",
         "Typescript",
         "Docker",
-        "Redis",
+        "Redis Caching",
         "SocketIO",
         "AWS S3"
       ]
@@ -81,14 +121,17 @@
       "logoAlt": "LDK Software",
       "date": "Mar 2021 - Mar 2022",
       "link": "https://www.facebook.com/groups/3915608995130538",
-      "position": "Full-Stack Developer",
+      "position": "Full Stack Developer",
       "descriptions": [
-        "Build Tools Generator",
         "Outsourcing project",
-        "Follow project requirements"
+        "Teamwork",
+        "Timeline Planning"
       ],
       "did": [
-        "Worker Thread",
+        "HTML5 / CSS3 / Bootstrap",
+        "JQuery",
+        "MongoDB",
+        "NodeJS / Express",
         "Message Queue",
         "Server Deployment",
         "Role Base Access Control",

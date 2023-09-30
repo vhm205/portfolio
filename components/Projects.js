@@ -2,7 +2,6 @@ import styles from "../styles/Projects.module.css";
 import Project from "./Project";
 import Button from "./Button";
 import Link from "next/link";
-import { useState, useEffect } from "react";
 import useOnScreen from "../utils/useOnScreen";
 import data from "../public/metadata";
 

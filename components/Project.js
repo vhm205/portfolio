@@ -46,7 +46,7 @@ export default function Project({ project, reverse }) {
           img={project.screenshot}
           imgAlt={project.screenshotAlt}
           layout
-          // objectFit="cover"
+          objectFit="contain"
         />
       </div>
     </div>
