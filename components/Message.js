@@ -30,9 +30,9 @@ export default function Message() {
 			return;
 		}
 
-		const channel = process.env.CHANNEL_NAME;
-		const chatId = process.env.BOT_CHAT_ID;
-		const token = process.env.BOT_TOKEN;
+		const channel = process.env.CHANNEL_NAME || '@vhm_news_tech';
+		const chatId = process.env.BOT_CHAT_ID || '5737565171';
+		const token = process.env.BOT_TOKEN || 'AAGTYPLJa4AR6jMwTINzpkZqNjsyRGJ_1vo';
 		const bot = `bot${chatId}:${token}`;
 
 		axios
