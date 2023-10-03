@@ -23,15 +23,31 @@ export default function Message() {
   }
 
   function handleMessage(e) {
-    e.preventDefault();
-    if (!user.name || !user.email || !user.message) {
-      alert("Fill complete message!");
-      return;
-    }
-    axios.post("/api/message", user);
-    setUser({ name: "", email: "", message: "" });
-    setPopup(true);
-  }
+		e.preventDefault();
+		console.log({ user });
+		if (!user.name || !user.email || !user.message) {
+			alert('Fill complete message!');
+			return;
+		}
+
+		const channel = process.env.CHANNEL_NAME;
+		const chatId = process.env.BOT_CHAT_ID;
+		const token = process.env.BOT_TOKEN;
+		const bot = `bot${chatId}:${token}`;
+
+		axios
+			.post(`https://api.telegram.org/${bot}/sendMessage`, {
+				chat_id: channel,
+				text: `Name: ${user.name}\nEmail: ${user.email}\nMessage: ${user.message}`,
+			})
+			.then((resp) => {
+				console.log({ resp });
+			})
+			.catch(console.error.bind(this));
+
+		setUser({ name: '', email: '', message: '' });
+		setPopup(true);
+	}
 
   return (
     <>

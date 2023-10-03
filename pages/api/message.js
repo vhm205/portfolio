@@ -13,12 +13,6 @@ export default function sendMail(req, res) {
     secure: true,
   });
 
-  // console.log({
-  //   user: process.env.EMAIL,
-  //   pass: process.env.PASSWORD,
-  //   name, email, message
-  // })
-
   const option = {
     from: process.env.EMAIL,
     to: email,
