@@ -6,13 +6,11 @@ import Instagram from "../svgs/Instagram";
 import Icon from "./Icon";
 import CodePen from "../svgs/CodePen";
 import Email from "../svgs/Email";
+import data from "../public/metadata";
 
-const data = [
-  "https://www.linkedin.com/in/vhm205/",
-  "https://twitter.com/vhm102/",
-  "https://www.instagram.com/vhm.205/",
-  "mailto:minhvh.tech@gmail.com",
-];
+const links = data.social.filter(social => {
+  return ["linkedin", "twitter", "instagram", "email"].includes(social.media);
+})
 
 export default function SocialLinks() {
   function getIcon(i) {
@@ -27,8 +25,8 @@ export default function SocialLinks() {
 
   return (
     <div className={`${styles.icons} sideFadeBottom`} style={{ "--delay": 15 }}>
-      {data.map((each, i) => (
-        <Link key={each} href={each} passHref>
+      {links.map((each, i) => (
+        <Link key={each.media} href={each.link} passHref>
           <a target={"_blank"}>
             <Icon>{getIcon(i)}</Icon>
           </a>

@@ -7,9 +7,9 @@
   "pic": "_avatar.png",
   "picAlt": "VU HUYNH MINH",
   "social": [
+    { "media": "linkedin", "link": "https://www.linkedin.com/in/vhm205" },
     { "media": "github", "link": "https://github.com/vhm205" },
     { "media": "twitter", "link": "https://twitter.com/vhm205" },
-    { "media": "linkedin", "link": "www.linkedin.com/in/vhm205" },
     { "media": "instagram", "link": "https://www.instagram.com/vhm.205" },
     { "media": "email", "link": "mailto:minhvh.tech@gmail.com" }
   ],
