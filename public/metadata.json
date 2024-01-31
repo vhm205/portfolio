@@ -3,12 +3,12 @@
   "lastname": "Moment",
   "shortname": "VHM",
   "description": "I'm a Web developer living in Bien Hoa - HCM - Viet Nam. I have a passion for code and things related to technology...",
-  "resume": "https://drive.google.com/file/d/1t8jCyqaWNszNkLFftRLIbw5Z_ZSrLY9x/view?usp=sharing",
+  "resume": "https://drive.google.com/file/d/16tsk8TAs9QX6gpMG_F4OKn-Ks6kVYmic/view?usp=sharing",
   "pic": "_avatar.png",
   "picAlt": "VU HUYNH MINH",
   "social": [
     { "media": "github", "link": "https://github.com/vhm205" },
-    { "media": "twitter", "link": "https://twitter.com/vhm102" },
+    { "media": "twitter", "link": "https://twitter.com/vhm205" },
     { "media": "linkedin", "link": "www.linkedin.com/in/vhm205" },
     { "media": "instagram", "link": "https://www.instagram.com/vhm.205" },
     { "media": "email", "link": "mailto:minhvh.tech@gmail.com" }
@@ -211,7 +211,7 @@
       },
       {
         "name": "Twitter",
-        "link": "https://twitter.com/vhm102"
+        "link": "https://twitter.com/vhm205"
       },
       {
         "name": "LinkedIn",
