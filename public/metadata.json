@@ -3,7 +3,7 @@
   "lastname": "Moment",
   "shortname": "VHM",
   "description": "I'm a Web developer living in Bien Hoa - HCM - Viet Nam. I have a passion for code and things related to technology...",
-  "resume": "https://drive.google.com/file/d/1fQKISSRBk9rrSGYo6RvMQnw77Xu-mhNI/view?usp=sharing",
+  "resume": "https://drive.google.com/file/d/11lBcIux3_9Al6uWYxiYozDHcxuvgU-Jg/view?usp=sharing",
   "pic": "_avatar.png",
   "picAlt": "VU HUYNH MINH",
   "social": [
@@ -35,7 +35,7 @@
     "descriptions": [
       "I started learning programing when i was 16 years old, but really, I only started getting serious coding when i graduated from high school.",
       "I spent a lot of time in vain learning a little bit of each, but not in depth. I almost fixed that.",
-      "Currently I'm diving into the <b> NodeJS </b>. My upcoming career goal is to become a <b> Senior Engineer </b>.",
+      "Currently I'm diving into the <b> NodeJS </b>. My upcoming career goal is to become a <b> Super Engineer </b>.",
       "I always try to improve myself everyday, today is better than yesterday. Failure for me is always a lesson to grow.",
       "Besides, I also play guitar, go running, practice calisthenics, boxing, touring, read and learn anything new related to tech"
     ],
@@ -57,6 +57,36 @@
     "illustrationAlt": "web illustration"
   },
   "experience": [
+    {
+      "company": "Pito",
+      "logo": "pito-logo-180x180.png",
+      "logoAlt": "Pito Company",
+      "date": "April 2024 - Feb 2025",
+      "link": "https://pito.vn/",
+      "position": "Back End Developer",
+      "descriptions": [
+        "Developed and implemented core features for a B2B2C ordering platform, including order creation and management for customers.",
+        "Engineered a real-time notification system to inform partners via their mobile application upon new order placement.",
+        "Integrated secure payment gateways with ACB Bank and VnPay to facilitate seamless transactions. Implemented an advanced product search functionality with comprehensive filtering capabilities to enhance the user experience.",
+        "Developed customer-centric features such as product reviews, ratings and a voucher application system for discounts.",
+        "Built a user engagement system encompassing a web-based notification center and a favorite restaurant feature for customers.",
+        "Created an internal notification system utilizing Slack integration for real-time order alerts to the internal team, coupled with automated email and mobile app push notifications for customers and partners.",
+        "Played a key role in migrating the monolithic project architecture to microservices, resulting in improved scalability, maintainability, and code optimization through refactoring and clean code practices."
+      ],
+      "products": [
+        "🛒 E-commerce: <a href='https://pito.vn/' target='_blank'>pito.vn</a>"
+      ],
+      "did": [
+        "NestJS / Typescript",
+        "Supabase / Serverless",
+        "Microservices / gRPC",
+        "PostgreSQL / Redis",
+        "RabbitMQ / Google Pub/Sub",
+        "API Gateway / Load Balancer",
+        "Cloud run function",
+        "Cloud Build / CI"
+      ]
+    },
     {
       "company": "Codelight",
       "logo": "codelight-logo.png",
@@ -122,11 +152,7 @@
       "date": "Mar 2021 - Mar 2022",
       "link": "https://www.facebook.com/groups/3915608995130538",
       "position": "Full Stack Developer",
-      "descriptions": [
-        "Outsourcing project",
-        "Teamwork",
-        "Timeline Planning"
-      ],
+      "descriptions": ["Outsourcing project", "Teamwork", "Timeline Planning"],
       "did": [
         "HTML5 / CSS3 / Bootstrap",
         "JQuery",
